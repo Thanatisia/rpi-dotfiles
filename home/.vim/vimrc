@@ -1,0 +1,57 @@
+" VimRC File
+" Made By: Thanatisia
+" Created On: 2022-09-18 1613H
+
+"============
+" Variables
+"============
+let mapleader=","
+
+"=========
+" Startup
+"=========
+set nocompatible
+
+"===============
+" Text Settings
+"===============
+set tabstop=4
+set expandtab
+set shiftwidth=4
+
+"====
+" UI
+"====
+set number
+set relativenumber
+
+"==================
+" Cursor Settings
+"==================
+set cursorcolumn
+set cursorline
+
+"=========
+" Options
+"=========
+" Enable Syntax Highlighting
+	syntax on
+
+"=========
+" Disable
+"=========
+set noerrorbells
+set nobackup
+set noswapfile
+
+"===============
+" Colorscheme
+"===============
+set background=dark
+
+"============
+" Highlights 
+"============
+:hi String cterm=bold ctermfg=White guifg=White
+:hi CursorLine cterm=bold guifg=Grey
+:hi CursorColumn cterm=bold ctermfg=Grey

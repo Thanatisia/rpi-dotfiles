@@ -1,0 +1,10 @@
+#!/bin/env bash
+: "
+All BashRC aliases
+"
+
+alias dir="dir --all --color"
+alias ls="ls -lha --color"
+alias so="source"
+alias re="source ~/.bashrc"
+
