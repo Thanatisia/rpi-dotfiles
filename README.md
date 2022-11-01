@@ -13,6 +13,7 @@ Standard Applications and Configuration files I generally use by default (or at 
 ## Installation
 ### Packages
 + vim
++ nvim
 
 ## Documentation
 
