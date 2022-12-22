@@ -13,7 +13,8 @@ vim.g.maplocalleader = "\\"
 -- Basic Settings
 vim.o.encoding = "utf-8" -- Set an encoding format
 vim.o.backspace = "indent,eol,start" -- Backspace works on every character in insert mode
-vim.o.completeopt = 'menuone,noselect'
+vim.opt.completeopt={"menu", "menuone", "noselect"} -- Setting completion values; Default: vim.o.completeopt = 'menuone,noselect'
+
 
 -- Operation and Movements
 vim.o.mouse = "a" -- Set Mouse
